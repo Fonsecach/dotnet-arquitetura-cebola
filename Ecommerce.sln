@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3FDDE938-A151-4A4D-ACD3-DEC1494BC3AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.API", "src\Ecommerce.API\Ecommerce.API.csproj", "{AE7890B2-D9DB-48C2-81DB-61D88A47E3C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Application", "src\Ecommerce.Application\Ecommerce.Application.csproj", "{FAA1CDC3-BB15-40F1-A196-7EC3CA2055F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Domain", "src\Ecommerce.Domain\Ecommerce.Domain.csproj", "{A65D98A5-3806-4776-8C3D-A17FB76084D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Domain.Core", "src\Ecommerce.Domain.Core\Ecommerce.Domain.Core.csproj", "{672C3E32-7DA9-4F31-B15A-06EAF310C1FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Domain.Services", "src\Ecommerce.Domain.Services\Ecommerce.Domain.Services.csproj", "{E5F3528A-DBD9-4D28-8458-6803D3122B7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Infrastructure", "src\Ecommerce.Infrastructure\Ecommerce.Infrastructure.csproj", "{46082615-A549-43B5-B12A-C0D437277FD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE7890B2-D9DB-48C2-81DB-61D88A47E3C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE7890B2-D9DB-48C2-81DB-61D88A47E3C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE7890B2-D9DB-48C2-81DB-61D88A47E3C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE7890B2-D9DB-48C2-81DB-61D88A47E3C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAA1CDC3-BB15-40F1-A196-7EC3CA2055F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAA1CDC3-BB15-40F1-A196-7EC3CA2055F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAA1CDC3-BB15-40F1-A196-7EC3CA2055F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAA1CDC3-BB15-40F1-A196-7EC3CA2055F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A65D98A5-3806-4776-8C3D-A17FB76084D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A65D98A5-3806-4776-8C3D-A17FB76084D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A65D98A5-3806-4776-8C3D-A17FB76084D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A65D98A5-3806-4776-8C3D-A17FB76084D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{672C3E32-7DA9-4F31-B15A-06EAF310C1FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{672C3E32-7DA9-4F31-B15A-06EAF310C1FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{672C3E32-7DA9-4F31-B15A-06EAF310C1FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{672C3E32-7DA9-4F31-B15A-06EAF310C1FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5F3528A-DBD9-4D28-8458-6803D3122B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5F3528A-DBD9-4D28-8458-6803D3122B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5F3528A-DBD9-4D28-8458-6803D3122B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5F3528A-DBD9-4D28-8458-6803D3122B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46082615-A549-43B5-B12A-C0D437277FD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46082615-A549-43B5-B12A-C0D437277FD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46082615-A549-43B5-B12A-C0D437277FD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46082615-A549-43B5-B12A-C0D437277FD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AE7890B2-D9DB-48C2-81DB-61D88A47E3C2} = {3FDDE938-A151-4A4D-ACD3-DEC1494BC3AD}
+		{FAA1CDC3-BB15-40F1-A196-7EC3CA2055F4} = {3FDDE938-A151-4A4D-ACD3-DEC1494BC3AD}
+		{A65D98A5-3806-4776-8C3D-A17FB76084D2} = {3FDDE938-A151-4A4D-ACD3-DEC1494BC3AD}
+		{672C3E32-7DA9-4F31-B15A-06EAF310C1FF} = {3FDDE938-A151-4A4D-ACD3-DEC1494BC3AD}
+		{E5F3528A-DBD9-4D28-8458-6803D3122B7D} = {3FDDE938-A151-4A4D-ACD3-DEC1494BC3AD}
+		{46082615-A549-43B5-B12A-C0D437277FD4} = {3FDDE938-A151-4A4D-ACD3-DEC1494BC3AD}
+	EndGlobalSection
+EndGlobal

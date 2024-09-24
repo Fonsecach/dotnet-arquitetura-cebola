@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "PrxFdjsgrIkE5SpFuk0k51DVIkkGEgtEph7C3s4RhO1nLyYRcbXYPJK9URITer37kBrVgzi06JOC7K6r7/Eeqg==",
+  "success": true,
+  "projectFilePath": "/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Infrastructure/Ecommerce.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "/home/cleiton/.nuget/packages/lambda2js.signed/3.1.4/lambda2js.signed.3.1.4.nupkg.sha512",
+    "/home/cleiton/.nuget/packages/microsoft.aspnetcore.jsonpatch/8.0.8/microsoft.aspnetcore.jsonpatch.8.0.8.nupkg.sha512",
+    "/home/cleiton/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/home/cleiton/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.1/microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
+    "/home/cleiton/.nuget/packages/microsoft.extensions.options/8.0.2/microsoft.extensions.options.8.0.2.nupkg.sha512",
+    "/home/cleiton/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/home/cleiton/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/home/cleiton/.nuget/packages/nito.asyncex.coordination/5.1.2/nito.asyncex.coordination.5.1.2.nupkg.sha512",
+    "/home/cleiton/.nuget/packages/nito.asyncex.tasks/5.1.2/nito.asyncex.tasks.5.1.2.nupkg.sha512",
+    "/home/cleiton/.nuget/packages/nito.collections.deque/1.1.1/nito.collections.deque.1.1.1.nupkg.sha512",
+    "/home/cleiton/.nuget/packages/nito.disposables/2.2.1/nito.disposables.2.2.1.nupkg.sha512",
+    "/home/cleiton/.nuget/packages/ravendb.client/6.2.0/ravendb.client.6.2.0.nupkg.sha512",
+    "/home/cleiton/.nuget/packages/system.collections.immutable/1.7.1/system.collections.immutable.1.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
