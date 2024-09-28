@@ -1,0 +1,12 @@
+/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain/bin/Debug/net8.0/Ecommerce.Domain.deps.json
+/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain/bin/Debug/net8.0/Ecommerce.Domain.dll
+/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain/bin/Debug/net8.0/Ecommerce.Domain.pdb
+/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain/obj/Debug/net8.0/Ecommerce.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain/obj/Debug/net8.0/Ecommerce.Domain.AssemblyInfoInputs.cache
+/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain/obj/Debug/net8.0/Ecommerce.Domain.AssemblyInfo.cs
+/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain/obj/Debug/net8.0/Ecommerce.Domain.csproj.CoreCompileInputs.cache
+/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain/obj/Debug/net8.0/Ecommerce.Domain.sourcelink.json
+/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain/obj/Debug/net8.0/Ecommerce.Domain.dll
+/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain/obj/Debug/net8.0/refint/Ecommerce.Domain.dll
+/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain/obj/Debug/net8.0/Ecommerce.Domain.pdb
+/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain/obj/Debug/net8.0/ref/Ecommerce.Domain.dll

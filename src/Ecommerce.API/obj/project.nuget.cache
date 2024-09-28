@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "N5Eypr+WogNzbTc0rbBHIYEz31nwXx+gaIa5u/JqpeOzMMA3wCOwVMFfyYrwrU44JUFtLgIz5xfnTOVB42SHIw==",
+  "dgSpecHash": "YRuvmJHLqHdygiTcuKBvZagrp1ECuhXKnCzGCUC1G7vLVlGsK/jH4VbWtuoxHwkL1QZjHJJpMGVcJLUjfeNNKg==",
   "success": true,
   "projectFilePath": "/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.API/Ecommerce.API.csproj",
   "expectedPackageFiles": [
@@ -18,6 +18,7 @@
     "/home/cleiton/.nuget/packages/nito.collections.deque/1.1.1/nito.collections.deque.1.1.1.nupkg.sha512",
     "/home/cleiton/.nuget/packages/nito.disposables/2.2.1/nito.disposables.2.2.1.nupkg.sha512",
     "/home/cleiton/.nuget/packages/ravendb.client/6.2.0/ravendb.client.6.2.0.nupkg.sha512",
+    "/home/cleiton/.nuget/packages/scalar.aspnetcore/1.2.4/scalar.aspnetcore.1.2.4.nupkg.sha512",
     "/home/cleiton/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "/home/cleiton/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "/home/cleiton/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

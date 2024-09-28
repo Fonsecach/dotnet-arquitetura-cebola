@@ -247,6 +247,22 @@
           }
         }
       },
+      "Scalar.AspNetCore/1.2.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Scalar.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Scalar.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Swashbuckle.AspNetCore/6.4.0": {
         "type": "package",
         "dependencies": {
@@ -323,10 +339,35 @@
           }
         }
       },
+      "Ecommerce.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Ecommerce.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ecommerce.Domain.dll": {}
+        }
+      },
+      "Ecommerce.Domain.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Ecommerce.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Ecommerce.Domain.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ecommerce.Domain.Core.dll": {}
+        }
+      },
       "Ecommerce.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "Ecommerce.Domain": "1.0.0",
+          "Ecommerce.Domain.Core": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
           "Microsoft.Extensions.Options": "8.0.2",
           "RavenDB.Client": "6.2.0"
@@ -948,6 +989,23 @@
         "runtimes/win-x86/native/libzstd.win.x86.dll"
       ]
     },
+    "Scalar.AspNetCore/1.2.4": {
+      "sha512": "VZScMTnupENjPNnCSJ17yxzg9xMM/VfeWXGsKnKdWpF9WU8lqQ06hj1y9pJacHySs13/jLuv7KkRzLLOl0SIWw==",
+      "type": "package",
+      "path": "scalar.aspnetcore/1.2.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net8.0/Scalar.AspNetCore.dll",
+        "lib/net8.0/Scalar.AspNetCore.xml",
+        "lib/net9.0/Scalar.AspNetCore.dll",
+        "lib/net9.0/Scalar.AspNetCore.xml",
+        "scalar.aspnetcore.1.2.4.nupkg.sha512",
+        "scalar.aspnetcore.nuspec"
+      ]
+    },
     "Swashbuckle.AspNetCore/6.4.0": {
       "sha512": "eUBr4TW0up6oKDA5Xwkul289uqSMgY0xGN4pnbOIBqCcN9VKGGaPvHX3vWaG/hvocfGDP+MGzMA0bBBKz2fkmQ==",
       "type": "package",
@@ -1055,6 +1113,16 @@
         "version.txt"
       ]
     },
+    "Ecommerce.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Ecommerce.Domain/Ecommerce.Domain.csproj",
+      "msbuildProject": "../Ecommerce.Domain/Ecommerce.Domain.csproj"
+    },
+    "Ecommerce.Domain.Core/1.0.0": {
+      "type": "project",
+      "path": "../Ecommerce.Domain.Core/Ecommerce.Domain.Core.csproj",
+      "msbuildProject": "../Ecommerce.Domain.Core/Ecommerce.Domain.Core.csproj"
+    },
     "Ecommerce.Infrastructure/1.0.0": {
       "type": "project",
       "path": "../Ecommerce.Infrastructure/Ecommerce.Infrastructure.csproj",
@@ -1064,6 +1132,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Ecommerce.Infrastructure >= 1.0.0",
+      "Scalar.AspNetCore >= 1.2.4",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -1108,6 +1177,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Scalar.AspNetCore": {
+            "target": "Package",
+            "version": "[1.2.4, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.4.0, )"

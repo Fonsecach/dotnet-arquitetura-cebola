@@ -3,11 +3,7 @@ global using Microsoft.Extensions.DependencyInjection.Extensions;
 global using Raven.Client.Documents;
 global using Microsoft.Extensions.Options;
 global using Ecommerce.Infrastructure.CrossCutting.Options;
-
-
-namespace Ecommerce.Infrastructure.Data;
-
-public class GlobalUsings
-{
-
-}
+global using Ecommerce.Domain.Core.Interfaces.Repositories;
+global using Ecommerce.Domain.Model;
+global using Raven.Client.Documents.Session;
+global using Ecommerce.Infrastructure.Data.Repositories;

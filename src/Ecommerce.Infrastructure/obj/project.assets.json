@@ -235,6 +235,29 @@
             "related": ".xml"
           }
         }
+      },
+      "Ecommerce.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Ecommerce.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ecommerce.Domain.dll": {}
+        }
+      },
+      "Ecommerce.Domain.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Ecommerce.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Ecommerce.Domain.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ecommerce.Domain.Core.dll": {}
+        }
       }
     }
   },
@@ -623,10 +646,22 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Ecommerce.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Ecommerce.Domain/Ecommerce.Domain.csproj",
+      "msbuildProject": "../Ecommerce.Domain/Ecommerce.Domain.csproj"
+    },
+    "Ecommerce.Domain.Core/1.0.0": {
+      "type": "project",
+      "path": "../Ecommerce.Domain.Core/Ecommerce.Domain.Core.csproj",
+      "msbuildProject": "../Ecommerce.Domain.Core/Ecommerce.Domain.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Ecommerce.Domain >= 1.0.0",
+      "Ecommerce.Domain.Core >= 1.0.0",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 8.0.1",
       "Microsoft.Extensions.Options >= 8.0.2",
       "RavenDB.Client >= 6.2.0"
@@ -656,7 +691,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain.Core/Ecommerce.Domain.Core.csproj": {
+              "projectPath": "/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain.Core/Ecommerce.Domain.Core.csproj"
+            },
+            "/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain/Ecommerce.Domain.csproj": {
+              "projectPath": "/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain/Ecommerce.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

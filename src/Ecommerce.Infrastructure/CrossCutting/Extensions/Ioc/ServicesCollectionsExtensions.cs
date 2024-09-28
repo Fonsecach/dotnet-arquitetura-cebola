@@ -18,5 +18,11 @@ public static class ServicesCollectionsExtensions
         });
 
         return servicesCollection;
-    }    
+    }
+
+    public static IServiceCollection AddRepositories(this IServiceCollection servicesCollection)
+    {
+        servicesCollection.TryAddSingleton<ICustomerRepository, CustomerRepository>();
+        return servicesCollection;
+    }
 }

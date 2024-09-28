@@ -1,0 +1,16 @@
+/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain.Core/bin/Debug/net8.0/Ecommerce.Domain.Core.deps.json
+/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain.Core/bin/Debug/net8.0/Ecommerce.Domain.Core.dll
+/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain.Core/bin/Debug/net8.0/Ecommerce.Domain.Core.pdb
+/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain.Core/bin/Debug/net8.0/Ecommerce.Domain.dll
+/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain.Core/bin/Debug/net8.0/Ecommerce.Domain.pdb
+/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain.Core/obj/Debug/net8.0/Ecommerce.Domain.Core.csproj.AssemblyReference.cache
+/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain.Core/obj/Debug/net8.0/Ecommerce.Domain.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain.Core/obj/Debug/net8.0/Ecommerce.Domain.Core.AssemblyInfoInputs.cache
+/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain.Core/obj/Debug/net8.0/Ecommerce.Domain.Core.AssemblyInfo.cs
+/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain.Core/obj/Debug/net8.0/Ecommerce.Domain.Core.csproj.CoreCompileInputs.cache
+/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain.Core/obj/Debug/net8.0/Ecommerce.Domain.Core.sourcelink.json
+/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain.Core/obj/Debug/net8.0/Ecommerce.Domain.Core.csproj.CopyComplete
+/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain.Core/obj/Debug/net8.0/Ecommerce.Domain.Core.dll
+/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain.Core/obj/Debug/net8.0/refint/Ecommerce.Domain.Core.dll
+/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain.Core/obj/Debug/net8.0/Ecommerce.Domain.Core.pdb
+/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain.Core/obj/Debug/net8.0/ref/Ecommerce.Domain.Core.dll
