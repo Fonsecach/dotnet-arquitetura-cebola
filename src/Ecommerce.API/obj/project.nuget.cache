@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "YRuvmJHLqHdygiTcuKBvZagrp1ECuhXKnCzGCUC1G7vLVlGsK/jH4VbWtuoxHwkL1QZjHJJpMGVcJLUjfeNNKg==",
+  "dgSpecHash": "Fo4RwHEUy+nOCmlyAqrN948AsDAPf96Fo6AHEf91+nWww+c+v62QRJuMlQgyv5ZKwx6JilUcjRH5x+8dOqa15g==",
   "success": true,
   "projectFilePath": "/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.API/Ecommerce.API.csproj",
   "expectedPackageFiles": [
+    "/home/cleiton/.nuget/packages/dnsclient/1.8.0/dnsclient.1.8.0.nupkg.sha512",
     "/home/cleiton/.nuget/packages/lambda2js.signed/3.1.4/lambda2js.signed.3.1.4.nupkg.sha512",
     "/home/cleiton/.nuget/packages/microsoft.aspnetcore.jsonpatch/8.0.8/microsoft.aspnetcore.jsonpatch.8.0.8.nupkg.sha512",
     "/home/cleiton/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",

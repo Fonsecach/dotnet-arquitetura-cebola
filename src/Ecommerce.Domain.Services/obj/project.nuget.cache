@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "1/frmxYxtZ6k5PskKEKXPtMPp2ZU2GEp83g3h2ub0GiqkCdUyJ33YQ/5JE8oiOw+9iqU5p/k38aFG59X2UPiQA==",
+  "dgSpecHash": "hfgpkqV6ebgbDQwyyj8oh+QJ5DOdCZ7wTCx7wBqUb3xL2pj+hPQKNI3RJmDgOMOyJ9w+z8giSCUa0CrbTn30UQ==",
   "success": true,
   "projectFilePath": "/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain.Services/Ecommerce.Domain.Services.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/cleiton/.nuget/packages/dnsclient/1.8.0/dnsclient.1.8.0.nupkg.sha512"
+  ],
   "logs": []
 }
