@@ -39,7 +39,7 @@ public class CustomerRepository : ICustomerRepository
         using IDocumentSession documentSession = _documentStore.OpenSession();
         var customerEntity = documentSession.Load<Customer>(id);
 
-        if(customerEntity is not null)
+        if (customerEntity is not null)
         {
             documentSession.Delete(customerEntity);
             documentSession.SaveChanges();
@@ -57,5 +57,18 @@ public class CustomerRepository : ICustomerRepository
         using IDocumentSession documentSession = _documentStore.OpenSession();
         var customer = documentSession.Load<Customer>(id);
         return customer;
+    }
+
+    public Customer? GetByEmail(string email)
+    {
+        using IDocumentSession documentSession = _documentStore.OpenSession();
+        var customer = documentSession.Query<Customer>()
+        .FirstOrDefault(c => c.Email == email);
+
+        if (customer is not null)
+        {
+            return customer;
+        }
+        return null;
     }
 }

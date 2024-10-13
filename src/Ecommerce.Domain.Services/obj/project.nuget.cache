@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hfgpkqV6ebgbDQwyyj8oh+QJ5DOdCZ7wTCx7wBqUb3xL2pj+hPQKNI3RJmDgOMOyJ9w+z8giSCUa0CrbTn30UQ==",
+  "dgSpecHash": "xJv+QXFK4lRGjJqufatNPBIX7i5DrVH9AMSDZefGRV6n0kRD0RcxPI3BB/qQA7ZwzPciODGhGZyKZ7DV79jFaA==",
   "success": true,
   "projectFilePath": "/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain.Services/Ecommerce.Domain.Services.csproj",
   "expectedPackageFiles": [

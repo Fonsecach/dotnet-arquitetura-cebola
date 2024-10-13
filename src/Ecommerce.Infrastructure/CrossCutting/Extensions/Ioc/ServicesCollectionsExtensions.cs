@@ -25,4 +25,10 @@ public static class ServicesCollectionsExtensions
         servicesCollection.TryAddSingleton<ICustomerRepository, CustomerRepository>();
         return servicesCollection;
     }
+
+    public static IServiceCollection AddServices(this IServiceCollection servicesCollection)
+    {
+        servicesCollection.TryAddSingleton<ICustomerService, CustomerServices>();
+        return servicesCollection;
+    }
 }

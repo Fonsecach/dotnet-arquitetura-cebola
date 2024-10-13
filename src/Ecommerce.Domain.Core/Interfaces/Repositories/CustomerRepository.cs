@@ -12,5 +12,7 @@ public interface ICustomerRepository
 
     Customer Get(string id);
 
+    Customer? GetByEmail(string email);
+
 }
 
