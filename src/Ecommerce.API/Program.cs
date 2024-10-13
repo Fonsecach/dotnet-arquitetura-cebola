@@ -4,7 +4,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRavenDb();
 builder.Services.AddRepositories();
 builder.Services.AddServices();
+builder.Services.AddMappers();
 builder.Services.AddControllers();
+
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

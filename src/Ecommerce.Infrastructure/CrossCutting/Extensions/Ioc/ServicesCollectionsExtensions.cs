@@ -1,10 +1,11 @@
+
 namespace Ecommerce.Infrastructure.CrossCutting.Extensions.Ioc;
 
 public static class ServicesCollectionsExtensions
 {
     public static IServiceCollection AddRavenDb(this IServiceCollection servicesCollection)
     {
-        
+
         servicesCollection.TryAddSingleton<IDocumentStore>(ctx =>
         {
             var ravenDbSettings = ctx.GetRequiredService<IOptions<RavenDbStettings>>().Value;
@@ -29,6 +30,12 @@ public static class ServicesCollectionsExtensions
     public static IServiceCollection AddServices(this IServiceCollection servicesCollection)
     {
         servicesCollection.TryAddSingleton<ICustomerService, CustomerServices>();
+        return servicesCollection;
+    }
+    public static IServiceCollection AddMappers(this IServiceCollection servicesCollection)
+    {
+        servicesCollection.TryAddSingleton<IMapper<Customer, CustomerDto>, CustomerMapper>();
+        servicesCollection.TryAddSingleton<IMapper<CustomerDto, Customer>, CustomerMapper>();
         return servicesCollection;
     }
 }
