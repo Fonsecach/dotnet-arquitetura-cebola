@@ -1,8 +1,10 @@
 
 
+using Ecommerce.Application.Interfaces;
+
 namespace Ecommerce.Application
 {
-    public class CustomerApplicationService : ICustomerAplicationService
+    public class CustomerApplicationService : ICustomerApplicationService
     {
         private readonly ICustomerService _customerService;
         private readonly IMapper<CustomerDto, Customer> _mapperEntity;

@@ -9,6 +9,13 @@ builder.Services.AddRepositories();
 builder.Services.AddServices();
 builder.Services.AddMappers();
 builder.Services.AddControllers();
+builder.Services.AddHealthChecks()
+                .AddRavenDB( setup =>
+                {
+                    setup.Database="Ecommerce";
+                    setup.Urls= ["http://localhost:8080"];
+                }
+                );
 
 
 builder.Services.AddEndpointsApiExplorer();
@@ -34,5 +41,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.MapHealthChecks("/health");
 
 app.Run();
