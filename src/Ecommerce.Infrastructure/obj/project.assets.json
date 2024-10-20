@@ -715,7 +715,6 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Ecommerce.Domain >= 1.0.0",
       "Ecommerce.Domain.Core >= 1.0.0",
       "Ecommerce.Domain.Services >= 1.0.0",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 8.0.1",
@@ -753,9 +752,6 @@
             },
             "/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain.Services/Ecommerce.Domain.Services.csproj": {
               "projectPath": "/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain.Services/Ecommerce.Domain.Services.csproj"
-            },
-            "/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain/Ecommerce.Domain.csproj": {
-              "projectPath": "/home/cleiton/Documentos/GitHub/curso-arquitetura/src/Ecommerce.Domain/Ecommerce.Domain.csproj"
             }
           }
         }

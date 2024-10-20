@@ -1,4 +1,3 @@
-
 namespace Ecommerce.Infrastructure.CrossCutting.Extensions.Ioc;
 
 public static class ServicesCollectionsExtensions
@@ -36,6 +35,11 @@ public static class ServicesCollectionsExtensions
     {
         servicesCollection.TryAddSingleton<IMapper<Customer, CustomerDto>, CustomerMapper>();
         servicesCollection.TryAddSingleton<IMapper<CustomerDto, Customer>, CustomerMapper>();
+        return servicesCollection;
+    }
+    public static IServiceCollection AddApplicationServices(this IServiceCollection servicesCollection)
+    {
+        servicesCollection.TryAddSingleton<ICustomerApplicationService, ICustomerApplicationService>();
         return servicesCollection;
     }
 }
